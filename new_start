@@ -27,7 +27,7 @@ public class HelloWorld {
 	}
 }
 ///////////////////////////////////////////////////////////////////
-
+			***primitive***
 
 package com.codewithmosh;
 import java.util.Date;
@@ -43,3 +43,25 @@ public class HelloWorld {
 		
 	}
 }
+
+
+/////////////////////////////////////////////////////////////////
+			***refrenceses***
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		Point point1 = new Point(1, 1);
+		Point point2 = point1;
+		point1.x = 2;
+		System.out.println(point2);// due to the change in point1 in the value of x there will 
+		// change in the value of x in point2 because they are refrencing to the same memory location
+		// and point1 and point2 are dependent on each other
+		// so this is the main differnce between primitive and refrnces
+	}
+}
+
+///////////////////////////////////////////////////////////////////
+
