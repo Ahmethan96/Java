@@ -105,3 +105,36 @@ public class HelloWorld {
 }
 ////////////////////////////////////////////////////////////
 
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+public class HelloWorld {
+	public static void main(String[] args) {
+		int[] numbers = new int[5]; // int by itself is primitive, however since we convert in to
+		// array by adding [] then it became a refrence thus we add new int[5]
+		// and 5 is the number if index in the array
+		//
+		System.out.println(numbers); // in this case the result is the location of the memory 
+		// so we need to convert it to array so we could see the numbers
+		// but how we can see the actual itmes in numbers? 
+		// 
+		System.out.println(Arrays.toString(numbers));
+		numbers[0] = 1;
+		numbers[1] = 2; 
+		numbers[2] = 3; 
+		System.out.println(numbers[0]); 
+		System.out.println(numbers[1]); 
+		System.out.println(Arrays.toString(numbers));
+		
+		int[] new_numbers = {2, 3, 4, 5, 1}; // new way to initilize an Array {* * * }
+		System.out.println(new_numbers.length);
+		System.out.println(new_numbers[2]);
+		System.out.println(Arrays.toString(new_numbers));
+		Arrays.sort(new_numbers);
+		System.out.println(Arrays.toString(new_numbers));
+	}
+}
+
+/////////////////////////////////////////////////////////////
+
