@@ -26,3 +26,21 @@ public class HelloWorld {
 		
 	}
 }
+////////////////////////////////////////////////////////////
+
+			*** Casting ***
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+public class HelloWorld {
+	public static void main(String[] args) {
+		int x = 1; 
+		double y = 2.1; // casting 
+		System.out.println(x+y);// the result will be 3.1 int x will be turned to double
+		
+		
+	}
+}
+/////////////////////////////////////////////////////////
+
