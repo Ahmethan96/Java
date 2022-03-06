@@ -64,4 +64,19 @@ public class HelloWorld {
 }
 
 ///////////////////////////////////////////////////////////////////
+		*** String is a refrence type***
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		String message = "Hello world"; // String in refrence type 
+		                               // thus alternatively we could writ hello world as 
+		                              // String message = new Sting("hello world")
+									 // and we will have the same results
+		System.out.println(message);
+	}
+}
+
 
