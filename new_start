@@ -26,3 +26,20 @@ public class HelloWorld {
 		
 	}
 }
+///////////////////////////////////////////////////////////////////
+
+
+package com.codewithmosh;
+import java.util.Date;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		byte x = 1; 
+		byte y = x;
+		x = 2;
+		System.out.println(x);
+		System.out.println(y);// y did not changed when we made x = 2 
+		// because it is primitive and independent of y 
+		
+	}
+}
