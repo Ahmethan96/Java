@@ -138,3 +138,28 @@ public class HelloWorld {
 
 /////////////////////////////////////////////////////////////
 
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+public class HelloWorld {
+	public static void main(String[] args) {
+		int[] number = new int[5];// to convert this to t dimensional Arrays we do the following we 
+		// add an extra [] for each dimension as the following example
+		// lets us suppose that we wnat to add 2*3 matrix so we will perform the following 
+		
+		int numbers[][] = new int[3][3]; // the first [2] is the number of Rows and the second is [3] is 
+		// the number of columns
+		System.out.println(number);
+		System.out.println(Arrays.toString(numbers)); // this is not gonna work. it will show us 
+		// the memory location 
+		System.out.println(Arrays.deepToString(numbers));// this is gonna work. so we need use 
+		// Arrays.deepToString(number) for dimensions higher than
+		numbers[0][0] = 1;
+		numbers[1][1] = 1;
+		numbers[2][2] = 1;
+		System.out.println(Arrays.deepToString(numbers));
+		
+		
+	}
+}
