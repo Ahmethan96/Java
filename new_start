@@ -80,3 +80,28 @@ public class HelloWorld {
 }
 
 
+//////////////////////////////////////////////////////////////
+
+
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		String message = "Hello world "+ "@@";  
+		System.out.println(message.endsWith("@@"));
+		System.out.println(message.startsWith("@@"));
+		System.out.println(message.length());
+		System.out.println(message.indexOf("e"));
+		System.out.println(message.replace("@@", "!!"));
+		System.out.println(message);// we can see that the orginal string did not change
+		                            // because str in java not immutable
+		System.out.println(message.toLowerCase());
+		System.out.println(message.toUpperCase());
+		String mail = new String("Merhaba \"dunya\""); //    \ *** \ back slah is used.
+		System.out.println(mail);
+	}
+}
+////////////////////////////////////////////////////////////
+
