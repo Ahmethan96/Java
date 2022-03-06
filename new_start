@@ -13,3 +13,16 @@ public class HelloWorld {
 		System.out.println(isEl);
 	}
 }
+////////////////////////////////////////////////////////////////////
+
+package com.codewithmosh;
+import java.util.Date;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		byte age = 26;
+		Date now = new Date(); // new is used when dealing with ref to allocate memory. Date() to create object
+		System.out.println(now);
+		
+	}
+}
