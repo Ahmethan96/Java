@@ -33,6 +33,35 @@ package com.codewithmosh;
 import java.util.Date;
 import java.awt.*;
 import java.util.Arrays;
+
+
+////////////////////////////////////////////////////////////
+		***generagte random number****
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+		int result = Math.round(2.5F);
+		int number1 = Math.round(2.4F);
+		System.out.println(result);
+		System.out.println(number1);
+		int number2 = Math.max(2,5);
+		System.out.println(number2);
+	
+		// double number3 = Math.random() // generate number between 0 - 0.99 
+		// double number3 = Math.random() * 100 // generate double between 0-100
+		// double number3 = Math.round(Math.random() * 100); 
+		int number3 = (int)Math.round(Math.random() * 100);
+		System.out.println(number3); 
+		
+	}
+}
+////////////////////////////////////////////////////////////////
+
+
 public class HelloWorld {
 	public static void main(String[] args) {
 		int x = 1; 
@@ -57,3 +86,29 @@ public class HelloWorld {
 		
 	}
 }
+
+
+//////////////////////////////////////////////////////////
+
+		***Reading input***
+		
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+import java.util.Scanner;
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("age: "); // we did not use println because we do not wanna start from new line
+		byte age = scanner.nextByte();
+		System.out.println("your age is "+ age);
+		
+		
+	}
+}
+///////////////////////////////////////////////////////////
+
+
+
