@@ -1,0 +1,28 @@
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+public class HelloWorld {
+	public static void main(String[] args) {
+		int result = 10/3;
+		System.out.println(result); // we will get 3 so we need to convert it to double 
+		double results = (double)10 / (double)3;
+		System.out.println(results); // now we will get the exact solution 3.33333
+		
+		int x = 1; 
+		//x++; we could apply this as postfix x++ or as a prefix ++x let us see the difference between them 
+		int y = x++; // in this case first x will copied to y thus y = 1 and then x will increase and 
+		// become 2 
+		System.out.println(x); // x = 2
+		System.out.println(y); // y = 1 
+		
+		int f = 1;
+		int z = ++f; 
+		System.out.println(f); // f = 2
+		System.out.println(z); // z = 2 since f is prefix ++f 
+		
+		
+		
+		
+	}
+}
