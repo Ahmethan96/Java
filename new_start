@@ -1,0 +1,15 @@
+package com.codewithmosh;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		byte age = 26;
+		long viewCounts = 3_123_456_789L; // in case of very long int add long - L
+		float price = 10.9F;
+		char name = 'A';
+		boolean isEl = true;
+		System.out.println(viewCounts);
+		System.out.println(price); 
+		System.out.println(name);
+		System.out.println(isEl);
+	}
+}
