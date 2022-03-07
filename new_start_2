@@ -110,5 +110,28 @@ public class HelloWorld {
 }
 ///////////////////////////////////////////////////////////
 
+		***reading input***
+		
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+import java.util.Scanner;
+public class HelloWorld {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in); // creating scanner object and specifying where 
+		// we are gonna read from. are we gonna read from window or are we gonna read it from file
+		System.out.print("age: ");
+		byte age = scanner.nextByte(); // methods for reading data alla starts with next
+				//so we have next byte for reading a byte 
+				// so do we have next line for reading line
+				// so do we have next boolean for reading boolean 
+		System.out.println("you are " + age);
+				
+		
+	}
+}
+///////////////////////////////////////////////////////////////
+
 
 
