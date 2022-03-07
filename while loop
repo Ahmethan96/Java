@@ -1,1 +1,24 @@
+                *** first while loop ***
+                
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.text.NumberFormat;
 
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		String input = "";
+		while(!input.equals("quit")) {
+			System.out.print("Input: ");
+			input = scan.next().toLowerCase();
+			System.out.println(input);
+		}
+		System.out.println("While loop has ben terminated");
+	}
+	
+}
+            
