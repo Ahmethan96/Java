@@ -149,3 +149,36 @@ public class HelloWorld {
 			
 	}
 }
+
+
+*** teacher solution *** 
+
+package com.codewithmosh;
+import java.util.Date;
+import java.awt.*;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.text.NumberFormat;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Please entre a number: ");
+		int number = scan.nextInt();
+		System.out.println("your number is "+number);
+		if(number % 5 == 0) {
+			if(number % 3 == 0) 
+				System.out.println("FizzBuzz");
+			else 
+				System.out.println("Fizz");	
+			
+		} 
+		else if (number % 3 == 0)
+			System.out.println("Buzz");
+		else
+			System.out.println(number);
+			
+	}
+}
