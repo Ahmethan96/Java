@@ -15,10 +15,10 @@ public class HelloWorld {
 		while(!input.equals("quit")) {
 			System.out.print("Input: ");
 			input = scan.next().toLowerCase();
-			System.out.println(input);
+			if(!input.equals("quit"))
+				System.out.println(input);
 		}
 		System.out.println("While loop has ben terminated");
 	}
 	
 }
-            
